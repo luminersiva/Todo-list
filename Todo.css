@@ -1,0 +1,47 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rosybrown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 320px;
+  width: 600px;
+  background-color: gray;
+  color:black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  gap: 15px;
+}
+#inputBox {
+  height: 30px;
+  width: 400px;
+  color: white;
+  background-color:black ;
+  border: 3px solid black;
+  font-size: larger;
+}
+#submit {
+  height: 35px;
+  width: 70px;
+  background-color: red;
+  font-weight: 200px;
+  font-size: larger;
+  border: 3px solid black;
+}
+
+#childbox {
+  background-color:black;
+  color: white;
+  border: 3px solid black;
+  height: 200px;
+  width: 500px;
+}
